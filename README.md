@@ -9,3 +9,5 @@ Developed by Team Sarson:
 <li>Isaac A Mayers</li>
 <li>Reid Anthony Shinabarker</li>
 </ul>
+
+<img src="https://github.com/jprsd/UML-Wars/blob/master/UML_Wars_Snapshot.PNG" alt="Game screenshot" width="50%" height="50%">
