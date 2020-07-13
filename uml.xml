@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<uml>
+  <class>
+    <name>Employer</name>
+    <name>Timeline</name>
+    <name>Picture</name>
+    <name>Actor</name>
+    <name bad="Language artifact">CEmployer</name>
+    <name bad="Missing class name"></name>
+    <name bad="Should be capitalized">movie</name>
+    <name bad="No spaces in names">Bank  Account</name>
+    <attribute>age: int</attribute>
+    <attribute bad="Language artifact">mAge: int</attribute>
+    <attribute>location: string</attribute>
+    <attribute>description: string</attribute>
+    <attribute>time: double</attribute>
+    <attribute>frameRate: int</attribute>
+    <attribute>angle: double=0</attribute>
+    <attribute bad="Missing type">cofefe</attribute>
+    <attribute bad="No spaces in names">is  empty: boolean</attribute>
+    <attribute bad="Use camelcase">framerate: int</attribute>
+    <attribute bad="Should be association">manager: Employee</attribute>
+    <attribute bad="Language artifact">v: vector&lt;double&gt;</attribute>
+    <attribute bad="Don't capitalize">Age: double</attribute>
+    <attribute bad="Use camelcase">numframes: int</attribute>
+    <attribute bad="Should be association">city: City</attribute>
+    <attribute bad="Should be association">actor: Actor</attribute>
+    <operation>Save(filename: string)</operation>
+    <operation>Load(filename: string)</operation>
+    <operation>Save(image: Image, filename: string)</operation>
+    <operation>GetDuration(): double</operation>
+    <operation>IsValid(): boolean</operation>
+    <operation>SetKeyframe(angle: double)</operation>
+    <operation>AddActor(actor: Actor)</operation>
+    <operation bad="Language artifact">GetActors(): vector&lt;Actor&gt;</operation>
+    <operation bad="Missing type">Draw(graphics)</operation>
+    <operation bad="Use camelcase">Launchrocket(): bool</operation>
+  </class>
+  <inheritance>
+    <inherit base="Drawable" derived="ImageDrawable"/>
+    <inherit base="Employee" derived="Manager"/>
+    <inherit base="Fish" derived="StinkyFish"/>
+    <inherit bad="Can't say 'is a'" base="StinkyFish" derived="Fish"/>
+    <inherit bad="Upside down" base="Fish" derived="StinkyFish" direction="down"/>
+    <inherit bad="Can't say 'is a'" base="Insect" derived="Fruit"/>
+    <inherit bad="Upside down" base="Insect" derived="Fly" direction="down"/>
+  </inheritance>
+</uml>
